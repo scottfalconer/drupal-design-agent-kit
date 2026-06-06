@@ -54,7 +54,7 @@ These are the defaults from prior Drupal CMS and Canvas rebuilds:
 - Verify page-by-page and link-by-link when parity matters. Menus, PDFs, media paths, forms, filters, and mobile layouts often fail after the "main" page looks right.
 - If the project uses Canvas or another page-composition system, remember pages may pin component versions or store component props. Updating a component may not update already-authored pages until they are republished, rebound, or re-exported.
 - If an API, permission, moderation, or media-write path is blocked, document the blocker and the closest Drupal-native fallback. Do not fake parity with hardcoded markup.
-- Keep known gaps explicit. A partially working site with named gaps is useful; an overclaimed site is not.
+- Keep gaps honest and narrow: a gap is a genuinely blocked external dependency, not required work you skipped or deferred. Required architecture — e.g. authoring pages as Canvas/page composition when that's the model — must be built, not gap-noted. The bar is visual and functional parity built the best-practice Drupal CMS way; an honestly-labeled partial is still not done.
 
 ## Preferred change order
 
